@@ -1,0 +1,135 @@
+*{
+    /* background-color: hsl(30, 38%, 92%); */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*entire container*/
+.container{
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(30, 38%, 92%);
+    padding: 50px;
+}
+
+.sides{    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.side1{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.side2{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* margin: 20px;  */
+}
+
+img{
+    width: 50vw;
+    /* height: 150%; */
+}
+
+h1{
+    font-family: Montserrat;
+    font-weight: 250;
+    text-transform: uppercase;    
+    padding:30px 0px  ;
+
+}
+
+.price-container{
+    display: flex;
+    font-display: row;
+    justify-content:left;
+    align-items: center;
+}
+
+.price-item{
+    width: 100%;
+}
+
+.bold{
+    font-family: fraunces;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.description{
+    font-family: Montserrat;
+    font-size: 1.2em;
+    /* font-weight:250; */
+    padding:30px 0px 30px 0px  ;
+    color: hsl(228, 12%, 48%);
+}
+
+.sale{
+    color: hsl(158, 36%, 37%);
+    font-family: fraunces;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.cost{
+    font-family: Montserrat;
+    font-size: 1.1em;
+    text-decoration:line-through;
+}
+
+input[type=submit]{
+    width: 100%;
+    background-color: hsl(158, 36%, 37%);
+    padding: 20px;
+    border-radius: 13px;
+    border:none;
+}
+
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%)
+
+### Neutral
+
+- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 14px
+
+### Font
+
+- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weights: 500, 700
+
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700 */
